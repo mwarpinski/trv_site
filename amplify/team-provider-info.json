@@ -1,15 +1,23 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-trvproject-dev-172109-authRole",
-      "UnauthRoleArn": "arn:aws:iam::304462271032:role/amplify-trvproject-dev-172109-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::304462271032:role/amplify-trvproject-dev-172109-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-trvproject-dev-172109-deployment",
-      "UnauthRoleName": "amplify-trvproject-dev-172109-unauthRole",
-      "StackName": "amplify-trvproject-dev-172109",
-      "StackId": "arn:aws:cloudformation:us-east-1:304462271032:stack/amplify-trvproject-dev-172109/352f4cf0-cd67-11eb-8e31-0ead09d00613",
-      "AmplifyAppId": "d22w8cygrkffqy"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-trvproject-dev-172109-authRole",
+            "UnauthRoleArn": "arn:aws:iam::304462271032:role/amplify-trvproject-dev-172109-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::304462271032:role/amplify-trvproject-dev-172109-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-trvproject-dev-172109-deployment",
+            "UnauthRoleName": "amplify-trvproject-dev-172109-unauthRole",
+            "StackName": "amplify-trvproject-dev-172109",
+            "StackId": "arn:aws:cloudformation:us-east-1:304462271032:stack/amplify-trvproject-dev-172109/352f4cf0-cd67-11eb-8e31-0ead09d00613",
+            "AmplifyAppId": "d22w8cygrkffqy"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d22w8cygrkffqy",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
